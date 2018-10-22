@@ -1,7 +1,13 @@
 
+<<<<<<< HEAD
 function findMatching(drivers, name) {                  //This is a string, not an object w/properties.
   return drivers.filter(function (driverName) {         //return the drivers array & filter it to return individual string.(call the string driverName)
     return driverName.toUpperCase() === name.toUpperCase()    //return the driverName string to upper case that equals the name argument
+=======
+function findMatching(drivers, name) {                  //This is a string, not an object w/properties. 
+  return drivers.filter(function (driverName) {         //return the drivers array & filter it to return individual string.(call the string driverName)
+    return driverName.toUpperCase() === name.toUpperCase()    //return the driverName string to upper case that equals the name argument  
+>>>>>>> bacc42fca66fa2aba210c30da11f840e56d71edb
   })                                                         //to upper case
 }
 
@@ -13,7 +19,11 @@ function fuzzyMatch(drivers, string) {
 //function fuzzyMatch(drivers, string) {             //drivers array & string
 //  let lengthOfName = string.length;               //set variable to the number of the length of the string
 //  return drivers.filter(function (driverName) {     //return drivers array & filter it to return individual driver. set to driverName.
+<<<<<<< HEAD
 //    return driverName.slice(0, lengthOfName) === string   //return driverName & slice it to return letters starting a 0 index &
+=======
+//    return driverName.slice(0, lengthOfName) === string   //return driverName & slice it to return letters starting a 0 index & 
+>>>>>>> bacc42fca66fa2aba210c30da11f840e56d71edb
 //  })                                                      //lasting for the lengthOfName variable
 //}
 
